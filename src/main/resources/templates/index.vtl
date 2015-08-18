@@ -1,16 +1,12 @@
 <h1>Task list!</h1>
 
-Current task:
 
 <ul>
   #foreach ($task in $tasks)
-  <li>$task.getDescription()</li>
+    <li>$task.getDescription()</li>
   #end
 </ul>
-
-<p>
-  Add a new Task:
-</p>
+<p>Add a new Task:</p>
 
 <form action="/tasks" method="post">
   <label for="description">Task Description</label>

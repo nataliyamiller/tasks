@@ -1,5 +1,4 @@
 public class Task {
-
   private String mDescription;
 
   public Task(String description) {
@@ -10,4 +9,5 @@ public class Task {
   public String getDescription() {
     return mDescription;
   }
+
 }
